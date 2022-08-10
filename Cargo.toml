@@ -1,0 +1,12 @@
+[package]
+name = "quantum_sim"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ga_macros = {git = "https://github.com/tomjwolc/ga-macros.git"}
+rand = "0.8.5"
+lazy_static = "1.4.0"
+colored = "2.0.0"
